@@ -26,7 +26,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="grid md:grid-cols-3 gap-8"
         >
-          <div>
+          <div className="transform-3d">
             <h3 className="text-xl font-bold mb-4 text-blue-100">
               Kaniz Fatama
             </h3>

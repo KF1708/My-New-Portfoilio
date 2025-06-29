@@ -11,7 +11,7 @@ const projects = [
     id: 1,
     title: "E-Commerce Platform",
     description:
-      "Ecommerce-inngest is a full-stack e-commerce app using Next.js, Inngest, and Clerk for auth, with Cloudinary for uploads and MongoDB via Mongoose. It’s built for speed with React 19 and Tailwind CSS.",
+      "Ecommerce-inngest is a full-stack e-commerce app using Next.js, Inngest, and Clerk for auth, with Cloudinary for uploads and MongoDB via Mongoose. It’s built for speed with React 19 and Tailwind CSS. Sellers can register, post new products, manage listings, and upload images easily. Buyers can browse products, add them to the cart, and make purchases securely.",
     image: "/p-1.png",
     technologies: [
       "Next.js",
@@ -31,7 +31,7 @@ const projects = [
     id: 2,
     title: "Beauty-Product",
     description:
-      "Natural-beauty-nextjs is a modern e-commerce web app built with Next.js and React 19 for a fast, dynamic user experience. It integrates Stripe for payments and Supabase for backend services like authentication and database. Styling is handled with Tailwind CSS and enhanced with UI libraries like Radix UI and Lucide Icons, while Zustand manages state efficiently.",
+      "Natural-beauty-nextjs is a modern e-commerce web app built with Next.js and React 19 for a fast, dynamic user experience. It integrates Stripe for payments and Supabase for backend services like authentication and database. Styling is handled with Tailwind CSS and enhanced with UI libraries like Radix UI and Lucide Icons, while Zustand manages state efficiently. Buyers can browse products, add them to the cart, and make purchases securely.",
     image: "/p-2.png",
     technologies: [
       "Next.js",
@@ -49,7 +49,7 @@ const projects = [
     id: 3,
     title: "Career-Focused App",
     description:
-      "my-project is a career-focused web app built with Next.js and React, helping users land $100k+ jobs in 8–16 weeks. It offers one-on-one mentoring, live interview support, salary negotiation boosts, and 99.99% guaranteed placement—all tailored for AI-ready, recession-proof careers.",
+      "My-project is a career-focused web app built with Next.js and React, helping users land $100k+ jobs in 8–16 weeks. It offers one-on-one mentoring, live interview support, salary negotiation boosts, and 99.99% guaranteed placement—all tailored for AI-ready, recession-proof careers.",
     image: "/p-3.png",
     technologies: [
       "Next.js",
@@ -90,7 +90,7 @@ const projects = [
     id: 5,
     title: "My Next Ecommerce",
     description:
-      "my-next-ecommerce is a modern e-commerce web application built with Next.js and React 19, featuring secure user auth with Clerk, payment integration via PayPal, and global state management using Redux Toolkit. It delivers a smooth shopping experience with responsive UI components from Ant Design, animated transitions via AOS, and toast notifications for user feedback.",
+      "My-next-ecommerce is a modern e-commerce web application built with Next.js and React 19, featuring secure user auth with Clerk, payment integration via PayPal, and global state management using Redux Toolkit. It delivers a smooth shopping experience with responsive UI components from Ant Design, animated transitions via AOS, and toast notifications for user feedback. Buyers can browse products, add them to the cart, and make purchases securely.",
     image: "/p-5.png",
     technologies: [
       "Next.js",
@@ -111,14 +111,22 @@ const projects = [
   },
   {
     id: 6,
-    title: "Food Delivery App",
+    title: "Summer-Sale",
     description:
-      "Mobile-first food delivery platform with real-time tracking, payment processing, and restaurant management.",
-    image:
-      "https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React Native", "Node.js", "MongoDB", "Stripe"],
-    liveDemo: "#",
-    github: "#",
+      "This is a modern e-commerce web application built with React and Vite, designed for speed, responsiveness, and interactivity. The application allows buyers to browse and add products to their cart with a simple, intuitive UI. It also includes a 'SUMMER' coupon feature, enabling users to apply a promotional code at checkout to decrease the total price.",
+    image: "/p-7.png",
+    technologies: [
+      "React",
+      "React DOM",
+      "Vite",
+      "Bootstrap",
+      "React Bootstrap",
+      "React Icons",
+      "FontAwesome",
+      "React Rating",
+    ],
+    liveDemo: "https://summer-sale-react-js.vercel.app/",
+    github: "https://github.com/KF1708/Summer_Sale_ReactJS",
   },
 ];
 
@@ -185,7 +193,7 @@ export default function ProjectsSection() {
                   <h3 className="text-xl font-semibold mb-2 text-blue-800 group-hover:text-blue-600 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm mb-4">
+                  <p className="text-muted-foreground  text-sm mb-4">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">

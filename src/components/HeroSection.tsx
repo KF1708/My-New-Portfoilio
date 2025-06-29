@@ -44,10 +44,10 @@ export default function HeroSection() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-lg sm:text-xl text-muted-foreground mt-6 max-w-2xl"
             >
-              Passionate front-end developer with expertise in React and
-              experience working within the MERN stack ( Express.js, React,
-              Node.js). I craft modern, responsive, and scalable web
-              applications that deliver exceptional user experiences.
+              My portfolio reflects my journey as a developer — a place where
+              ideas meet execution. It showcases my skills, achievements, and
+              passion for building impactful digital experiences through
+              thoughtful web development and test automation.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

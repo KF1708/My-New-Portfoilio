@@ -72,7 +72,7 @@ export default function AboutSection() {
                 width={500}
                 src="/1.png"
                 alt="About me"
-                className="w-96 h-64 rounded-lg object-cover relative z-10 shadow-2xl border-2 border-blue-200"
+                className="w-96 h-64 hue-rotate-180 rounded-lg object-cover relative z-10 shadow-2xl border-2 border-blue-200"
               />
             </div>
           </motion.div>
