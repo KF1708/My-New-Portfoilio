@@ -67,7 +67,7 @@ export default function HeroSection() {
                 className="group border-blue-300 text-blue-700 hover:bg-blue-50"
                 asChild
               >
-                <a href={"/Resume of Kaniz Fatama.pdf"} download>
+                <a href={"/_Kaniz's resume.pdf"} download>
                   Download CV
                   <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
                 </a>
